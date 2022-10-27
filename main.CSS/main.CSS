@@ -5,15 +5,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
 .likn {
-    margin-left: 20px;
-    font-size: 18px;
-    color: black;
+    justify-content: space-evenly;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .japan {
+
     font-size: 40px;
     font-family: 'Mulish', sans-serif;
 }
@@ -59,14 +58,42 @@
 
 }
 
-.japan1 {
-    font-family: 'Source Serif Pro';
+.japan3 {
+    font-family: 'Tenor Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
-    /* or 150% */
+    /* or 120% */
 
+    text-transform: uppercase;
 
-    color: #666666;
+    color: #000000;
+}
+
+.Photography {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #999999;
+
+}
+
+.big_box {
+    margin-top: 80px;
+}
+
+.three_in_one {
+    margin-bottom: 100px;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
